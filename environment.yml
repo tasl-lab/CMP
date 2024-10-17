@@ -1,0 +1,53 @@
+name: cmp
+channels:
+  - defaults
+dependencies:
+  - pip==21.1.2
+  - python==3.7.11
+  - pip:
+    - torch==1.13.1
+    - torchvision==0.14.1
+    - torch-geometric==2.3.1
+    - matplotlib==3.4.2
+    - cmake
+    - easydict~=1.9
+    - numpy==1.21.6
+    - numba==0.49.0
+    - PyYAML
+    - open3d
+    - opencv-python==4.5.5.62
+    - cython
+    - pygame
+    - tensorboardX
+    - shapely==2.0.0
+    - einops
+    - timm
+    - glob2
+    - filterpy
+    - spconv-cu117
+    - scikit-image
+    - scipy==1.5.4
+    - transformers
+    - dash==2.6
+    - typing-extensions==3.7.4.3
+    - chardet
+    - pympler
+    - easydict
+    - terminaltables
+
+## Misc requirements unique to your machine:
+
+## CUDA Related:
+# conda install -c "nvidia/label/cuda-11.7.0" cuda-nvcc
+# conda install -c "nvidia/label/cuda-11.7.0" cuda-toolkit
+# conda install -c conda-forge cxx-compiler
+# conda install 'gxx[version=">=6,<=11.5.0"]'
+
+# Missing libcrypt:
+# conda install --channel=conda-forge libxcrypt
+
+## Missing GLIBCXX:
+# conda install -c conda-forge gcc
+# sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+# sudo apt install -y g++-11
+# strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX

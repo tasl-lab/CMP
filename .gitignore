@@ -1,0 +1,14 @@
+__pycache__/
+build/*
+OpenCOOD.egg-info/*
+MTR/output/*
+MTR/build/*
+MTR/MotionTransformer.egg-info/*
+pretrained/*
+preprocessed_data/opv2v/fused_*
+preprocessed_data/opv2v/detection*
+preprocessed_data/opv2v/new_ab3dmot*
+preprocessed_data/v2v4real/fused_*
+preprocessed_data/v2v4real/detection*
+preprocessed_data/v2v4real/new_ab3dmot*
+results/*
