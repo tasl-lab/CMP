@@ -1,6 +1,6 @@
 ## **CMP**: **C**ooperative **M**otion **P**rediction with Multi-Agent Communication
 
-[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10908648) | [Project page](https://cmp-cooperative-prediction.github.io/)
+[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10908648) | [Project page](https://cmp-cooperative-prediction.github.io/) | [arXiv](https://arxiv.org/abs/2403.17916) 
 
 This repository contains the official implementation of paper "CMP: Cooperative Motion Prediction with Multi-Agent Communication".
 
