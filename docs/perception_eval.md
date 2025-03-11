@@ -26,7 +26,7 @@ No Cooperation
 python opencood/tools/multi_ego_inference_opv2v.py --perception_model_name point_pillar_sinbevt --no_coop
 ```
 
-This will save the detection and tracking results in the `preprocessed_data` folder. This script caches intermediate results in the `preprocessed_data` folder as well, so if you want to re-run, you need to delete the cache. This script also saves the fused features in the `preprocessed_data` folder.
+This will save the detection and tracking results in the `preprocessed_data` folder. This script caches intermediate results in the `preprocessed_data` folder as well, so if you want to re-run, you need to delete the cache. This script also saves the fused features in the `preprocessed_data` folder. Our intermediate results can be accessed [HERE](https://drive.google.com/drive/folders/1Xqfo1FPNPlunQrj2Apnpg8NQYyXCVmQa?usp=drive_link).
 
 The overall evaluation results will be saved in the checkpoint folder `eval.yaml`.
 

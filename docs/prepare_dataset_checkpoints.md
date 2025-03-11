@@ -35,7 +35,7 @@
 
    
 
-3. Next, we gonna config the checkpoint path for perception module. The perception model can be either CoBEVT or V2VNet for two different datasets, the checkpoint can be downloaded from [HERE](). For each pretrained model folder, there should be one net_epochXX.pth file with a config.yaml. After you get the checkpoint. Move them into pretrained folder like below structure. Also, make sure change `root_dir` and `validate_dir` to your dataset path in config.yaml. Moreover, a pretrained Swim Transformer for prediction module on OPV2V dataset is also saved here.
+3. Next, we gonna config the checkpoint path for perception module. The perception model can be either CoBEVT or V2VNet for two different datasets, the checkpoint can be downloaded from [HERE](https://drive.google.com/drive/folders/1EizY6ZFMi__HnqeFPQ2Wf9yRJeD_-S82?usp=drive_link). For each pretrained model folder, there should be one net_epochXX.pth file with a config.yaml. After you get the checkpoint. Move them into pretrained folder like below structure. Also, make sure change `root_dir` and `validate_dir` to your dataset path in config.yaml. Moreover, a pretrained Swim Transformer for prediction module on OPV2V dataset is also saved here.
 
    ```bash
    ├── pretrained
@@ -70,7 +70,7 @@
 
 
 
-4. Finally, we gonna config the checkpoint for prediction module, in which we need a checkpoint of no cooperation model, a cooperative perception only model (without prediction aggregation), our cooperative perception and prediction model, and v2vnet baseline. Download from [HERE]() and move them into `MTR/output` folder.
+4. Finally, we gonna config the checkpoint for prediction module, in which we need a checkpoint of no cooperation model, a cooperative perception only model (without prediction aggregation), our cooperative perception and prediction model, and v2vnet baseline. Download from [HERE](https://drive.google.com/drive/folders/1ZUJ5a5VuNfxV34I9FmIefHDGixaJ7gM2?usp=drive_link) and move them into `MTR/output` folder.
 
    ```
    ├── MTR
