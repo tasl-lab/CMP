@@ -49,14 +49,12 @@ The visualizations of predicted trajectories (colored waypoints) and ground trut
 ## Citation
 
 ```
-@misc{wang2024cmpcooperativemotionprediction,
-      title={CMP: Cooperative Motion Prediction with Multi-Agent Communication}, 
-      author={Zehao Wang and Yuping Wang and Zhuoyuan Wu and Hengbo Ma and Zhaowei Li and Hang Qiu and Jiachen Li},
-      year={2024},
-      eprint={2403.17916},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2403.17916}, 
+@article{wang2025cmp,
+    title={Cmp: Cooperative motion prediction with multi-agent communication},
+    author={Wang, Zehao and Wang, Yuping and Wu, Zhuoyuan and Ma, Hengbo and Li, Zhaowei and Qiu, Hang and Li, Jiachen},
+    journal={IEEE Robotics and Automation Letters},
+    year={2025},
+    publisher={IEEE}
 }
 ```
 
